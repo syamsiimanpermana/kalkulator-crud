@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>kalkulator</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#126E82" />
+    <meta name="apple-mobile-web-app-statuss-bar" content="#126E82" />
+    <link rel="apple-touch-icon" href="/img/icons/icon-96x96.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="shortcut icon" href="img/dish.png" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>kalkulator</h1>
+      <div class="wrapper">
+        <div class="output">
+          <span></span>
+          <input type="text" class="kalkulasi" readonly="true" />
+        </div>
+        <div class="input">
+          <button class="clear" onclick="clearAll()">C</button>
+          <button class="hapus" onclick="hapus()"><</button>
+          <button class="inputBtn">+</button>
+          <button class="inputBtn">-</button>
+          <button class="inputBtn">1</button>
+          <button class="inputBtn">2</button>
+          <button class="inputBtn">3</button>
+          <button class="inputBtn">*</button>
+          <button class="inputBtn">4</button>
+          <button class="inputBtn">5</button>
+          <button class="inputBtn">6</button>
+          <button class="inputBtn">/</button>
+          <button class="inputBtn">7</button>
+          <button class="inputBtn">8</button>
+          <button class="inputBtn">9</button>
+          <button class="hasil" onclick="hasil()">=</button>
+          <button class="inputBtn">0</button>
+          <button class="inputBtn">.</button>
+          <button class="inputBtn">00</button>
+        </div>
+      </div>
+      <div class="riwayat">
+        <h2>Riwayat Perhitungan</h2>
+        <ul class="list-item">
+          <!-- semua list masuk ke sini -->
+        </ul>
+      </div>
+      <p class="copyright">dibuat dengan ♥ oleh <a href="https://www.linkedin.com/in/syamsi-iman-permana-8a348b1bb" target="_blank">syamsi iman permana</a></p>
+    </div>
+
+    <script type="text/javascript" src="js/db.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
